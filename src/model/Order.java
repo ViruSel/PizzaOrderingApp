@@ -1,4 +1,4 @@
-package de.hhn.mib.prog2.blatt5.model;
+package model;
 
 import java.io.*;
 import java.util.LinkedList;

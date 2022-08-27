@@ -1,8 +1,8 @@
-package de.hhn.mib.prog2.blatt5.view;
+package view;
 
-import de.hhn.mib.prog2.blatt5.model.DataStorage;
-import de.hhn.mib.prog2.blatt5.model.Order;
-import de.hhn.mib.prog2.blatt5.model.Pizza;
+import model.DataStorage;
+import model.Order;
+import model.Pizza;
 
 import javax.swing.*;
 import java.awt.*;

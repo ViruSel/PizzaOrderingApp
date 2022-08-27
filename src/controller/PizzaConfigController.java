@@ -1,8 +1,8 @@
-package de.hhn.mib.prog2.blatt5.controller;
+package controller;
 
-import de.hhn.mib.prog2.blatt5.model.Order;
-import de.hhn.mib.prog2.blatt5.model.Pizza;
-import de.hhn.mib.prog2.blatt5.view.PizzaConfigPanel;
+import model.Order;
+import model.Pizza;
+import view.PizzaConfigPanel;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

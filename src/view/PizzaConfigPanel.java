@@ -1,9 +1,9 @@
-package de.hhn.mib.prog2.blatt5.view;
+package view;
 
-import de.hhn.mib.prog2.blatt5.model.Order;
-import de.hhn.mib.prog2.blatt5.model.Pizza;
-import de.hhn.mib.prog2.blatt5.model.PizzaSize;
-import de.hhn.mib.prog2.blatt5.model.PizzaTopping;
+import model.Order;
+import model.Pizza;
+import model.PizzaSize;
+import model.PizzaTopping;
 
 import javax.swing.*;
 import java.awt.*;
