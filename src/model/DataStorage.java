@@ -12,7 +12,6 @@ import java.util.LinkedList;
 //TODO Complete functionalities
 public class DataStorage
 {
-    private final String STORAGE_FORMAT = "text";
     private final File file = new File("order.bin");
 
     /**
@@ -83,5 +82,7 @@ public class DataStorage
      */
     public void writeOrder(Order order) throws IOException { order.writeOrderCSV(order); }
 
-    public String getSTORAGE_FORMAT() { return STORAGE_FORMAT; }
+    public String getSTORAGE_FORMAT() {
+        String STORAGE_FORMAT = "text";
+        return STORAGE_FORMAT; }
 }

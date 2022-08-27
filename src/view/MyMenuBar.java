@@ -119,7 +119,7 @@ public class MyMenuBar extends JMenuBar
         }
     }
 
-    public void openHelpAction() throws IOException, URISyntaxException { Desktop.getDesktop().browse(new URL("https://pizzahut.de/").toURI()); }
+    public void openHelpAction() throws IOException, URISyntaxException { Desktop.getDesktop().browse(new URL("https://www.pizzahut.ro/").toURI()); }
 
     public void openHelpVideoAction() throws IOException, URISyntaxException { Desktop.getDesktop().browse(new URL("https://www.youtube.com/watch?v=dQw4w9WgXcQ").toURI()); }
 
