@@ -12,7 +12,6 @@ import view.PizzaConfigPanel;
  * @author Alexandru Moldovan
  * @version 5.0
  */
-
 public class Main
 {
     public static void main(String[] args)

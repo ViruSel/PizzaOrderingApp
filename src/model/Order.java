@@ -6,7 +6,6 @@ import java.util.LinkedList;
 /**
  * Order class
  */
-
 public class Order
 {
     private long orderId;
@@ -18,7 +17,6 @@ public class Order
      * @return order with the pizza
      * @throws FileNotFoundException if the program can't find its file
      */
-
     public Order readOrderCSV() throws IOException
     {
         BufferedReader br = new BufferedReader(new FileReader(file));
@@ -51,7 +49,6 @@ public class Order
     /**
      * Writing in a file
      */
-
     public void writeOrderCSV(Order order) throws IOException
     {
         FileWriter writer = new FileWriter(file, true);
@@ -78,41 +75,35 @@ public class Order
      * Get order id
      * @return order id
      */
-
     public long getOrderId() { return orderId; }
 
     /**
      * Setting new order id
      * @param orderId new order id
      */
-
     public void setOrderId(long orderId) { this.orderId = orderId; }
 
     /**
      * Adding pizza to order
      * @param pizza new pizza
      */
-
     public void addPizza(Pizza pizza) { pizzaList.add(pizza); }
 
     /**
      * Removing a pizza from an order
      * @param pizza pizza to be removed
      */
-
     public void removePizza(Pizza pizza) { pizzaList.remove(pizza); }
 
     /**
      * Get all pizzas from an order
      */
-
     public LinkedList<Pizza> getPizzaList() { return pizzaList; }
 
     /**
      * Showing an order
      * @return Order to string
      */
-
     @Override
     public String toString()
     {

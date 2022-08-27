@@ -6,7 +6,6 @@ import java.util.LinkedList;
 /**
  * Pizza class for creating a pizza
  */
-
 public class Pizza
 {
     private Double price;
@@ -18,7 +17,6 @@ public class Pizza
     /**
      * Sets pizza prices per size
      */
-
     private void updatePizzaPrices()
     {
         pricePerPizza.put(PizzaSize.SMALL, 5.0);
@@ -30,7 +28,6 @@ public class Pizza
     /**
      * Sets pizza topping's prices
      */
-
     private void updateToppingPrices()
     {
         pricePerTopping.put(PizzaTopping.TOMATO, 0.50);
@@ -47,27 +44,23 @@ public class Pizza
     /**
      * @return Pizza price
      */
-
     public Double getPrice() { return price; }
 
     /**
      * Set new Pizza price
      * @param price new price
      */
-
     public void setPrice(Double price) { this.price = price; }
 
     /**
      * Sets pizza size by enum
      */
-
     public void setSize(PizzaSize size) { this.size = size; }
 
     /**
      * Set Pizza size by string
      * @param str - size (String)
      */
-
     public void setSizeStr(String str)
     {
         switch (str)
@@ -90,20 +83,17 @@ public class Pizza
     /**
      * @return pizza size
      */
-
     public PizzaSize getSize() { return size; }
 
     /**
      * Adds a pizza topping to the pizza toppings list
      */
-
     public void addPizzaTopping(PizzaTopping pizzaTopping) { pizzaToppings.add(pizzaTopping); }
 
     /**
      * Set Pizza topping by string
      * @param str size (String)
      */
-
     public void addPizzaToppingStr(String str)
     {
         switch (str)
@@ -141,20 +131,17 @@ public class Pizza
     /**
      * Removes a pizza topping from the pizza toppings list
      */
-
     public void removePizzaTopping(PizzaTopping pizzaTopping) { pizzaToppings.remove(pizzaTopping); }
 
     /**
      * Writes on screen all the toppings on the pizza
      */
-
     public LinkedList<PizzaTopping> getPizzaToppings() { return pizzaToppings; }
 
     /**
      * Calculus for Pizza's price
      * @return Pizza price
      */
-
     public double calculatePrice()
     {
         updatePizzaPrices();
@@ -171,9 +158,9 @@ public class Pizza
     /**
      * @return Pizza specifications
      */
-
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Pizza{" +
                 "price=" + price +
                 ", size=" + size +

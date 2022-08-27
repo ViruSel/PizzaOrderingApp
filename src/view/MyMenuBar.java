@@ -23,7 +23,7 @@ public class MyMenuBar extends JMenuBar
     private final ImageIcon imgLQ = new ImageIcon(Objects.requireNonNull(getClass().getResource("../assets/PizzaSteveLow.png")));
 
     /**
-     * de.hhn.mib.prog2.blatt5.Main constructor
+     * Main constructor
      * @param order new Order
      * @param pizza new Pizza
      * @param configPanel config panel view to make references and instances
@@ -57,13 +57,11 @@ public class MyMenuBar extends JMenuBar
     }
 
     // Actions to be performed
-
     public void exitAction()
     {
         int input = JOptionPane.showConfirmDialog(this, "Do you really want to exit Pizza Configurator?", "Warning", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, imgLQ);
 
-        if(input == JOptionPane.YES_OPTION)
-            System.exit(0);
+        if(input == JOptionPane.YES_OPTION) System.exit(0);
     }
 
     public void loadAction() throws IOException

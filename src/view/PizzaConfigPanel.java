@@ -17,7 +17,6 @@ import java.util.Objects;
 /**
  * Pizza configurator main view
  */
-
 public class PizzaConfigPanel extends JFrame
 {
     private Order order;
@@ -36,7 +35,6 @@ public class PizzaConfigPanel extends JFrame
      * @param order new order
      * @param pizza new pizza
      */
-
     public PizzaConfigPanel(Order order, Pizza pizza)
     {
         super("Pizza Configurator");

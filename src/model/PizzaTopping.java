@@ -3,7 +3,6 @@ package model;
 /**
  * Enumeration of pizza toppings
  */
-
 public enum PizzaTopping
 {
     TOMATO,
